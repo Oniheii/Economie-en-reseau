@@ -1,10 +1,51 @@
-# Economie-en-reseau
-## Théorie des graphes, systèmes de recommandation et réseaux d'acteur et de secteurs économiques
 
+# Network Economy: Graph Theory and Recommendation Systems for Economic Actors and Sectors
 
-Il s'agit dans ce projet, de proposer une contribution originale, sous la forme d'un outil, qui s'inspire des systèmes derecommandation et la théorie des graphes. L'objectif serait d'analyser les secteurs et les acteurs à partir dessimilitudes existantes, en utilisant des graphes, afin d'identifier des "communautés" et de générer des recommandations d'exploration de secteurs d'activité
-- Étude approfondie de la théorie des graphes :les concepts et les techniques clés de la théorie des graphes, en mettant l'accent sur leur application à l'analyse des réseaux de secteurs et d'acteurs.
-- Collecte et préparation des données : les données sectorielles et les informations sur les acteurs.
-- Développement de l'outil d'analyse : À partir des concepts de la théorie des graphes et en m'inspirant des systèmesde recommandation, développer un outil personnalisé qui permettra de visualiser les relations entre lessecteurs et les acteurs, d'identifier les communautés et de générer des recommandations d'exploration.
-- Expérimentation et évaluation : appliquer l'outil développé à un échantillon de données représentatif etprocéder à une évaluation approfondie de ses performances. Valider les résultats obtenus et à identifier les limites éventuelles de l'approche proposée.
-- Analyse des résultats et rédaction du mémoire : Analyse détaillée des résultats obtenus,en mettant en évidence les conclusions clés de mon étude. 
+This repository contains the code and resources for a project that leverages **graph theory** and **recommendation systems** to analyze relationships between economic actors and sectors. The goal is to provide insights into the structure of economic networks and offer recommendations for exploring sectors based on similarities and community detection.
+
+### Project Overview
+
+The project focuses on:
+1. **Graph Theory**: In-depth exploration of graph theory concepts and techniques, applied to the analysis of sector and actor networks.
+2. **Data Collection and Preparation**: Gathering and preparing sectoral data and actor information for analysis.
+3. **Development of the Analysis Tool**: Based on graph theory and inspired by recommendation systems, the tool visualizes relationships between sectors and actors, identifies communities, and generates recommendations for further exploration.
+4. **Experimentation and Evaluation**: Applying the tool to a representative dataset, evaluating its performance, and identifying any limitations in the approach.
+5. **Result Analysis**: Detailed analysis of the results, with key findings highlighted.
+
+### Key Features
+
+- **Graph-Based Analysis**: Using graph theory to model relationships between economic actors and sectors, creating a network structure.
+- **Community Detection**: Identifying clusters of closely related actors or sectors based on similarities.
+- **Recommendation System**: Generating recommendations for sector exploration by leveraging similarity measures between nodes in the graph.
+- **Visualization**: Interactive visualization of the actor and sector network to better understand their relationships.
+
+### Data and Methodology
+
+- **Data**: Sectoral data and actor information, collected from publicly available sources or proprietary datasets.
+- **Methods**: Techniques from graph theory (e.g., community detection, centrality measures) and recommendation systems (e.g., collaborative filtering) are applied to explore relationships in the economic network.
+
+### Tools and Libraries
+
+- **Python**: Main programming language for data processing and graph analysis.
+- **NetworkX**: For graph creation, manipulation, and analysis.
+- **Matplotlib/Plotly**: For data visualization and interactive graphs.
+- **Scikit-learn**: For applying machine learning techniques in recommendation systems.
+
+### How to Run
+
+1. Clone the repository.
+2. Install the required Python libraries using `requirements.txt`.
+3. Run the Python scripts to load the data, build the graph, and generate recommendations.
+
+### File Structure
+
+- `data/`: Contains the sectoral and actor datasets.
+- `scripts/`: Python scripts for graph analysis, community detection, and recommendation generation.
+- `output/`: Stores the results, including visualizations and analysis reports.
+- `requirements.txt`: List of required Python libraries.
+  
+### Next Steps
+
+- Extend the tool to analyze cross-sector interactions in more detail.
+- Integrate more advanced recommendation techniques, such as hybrid recommendation systems.
+- Apply the model to larger and more diverse datasets to evaluate its scalability.
